@@ -13,7 +13,6 @@
  */
 
 
-function theGame() {
     var randomNumber = Math.floor(Math.random() * 10) + 1; // 1
     var userGuess = parseInt(prompt("Guess a number between 1 and 10")); //2 and 3
     var listOfUserGuess = []; // #7 ???
@@ -27,7 +26,8 @@ function theGame() {
     } else {
         parseInt(prompt('Your number is too high. Guess again')); // 4c
     }
-}
+
+
 
 
 while (counter < 5) {
