@@ -16,6 +16,7 @@
 function theGame() {
     var randomNumber = Math.floor(Math.random() * 10) + 1; // 1
     var userGuess = parseInt(prompt("Guess a number between 1 and 10")); //2 and 3
+    var listOfUserGuess = []; // #7 ???
 
     if (userGuess === randomNumber) {
         alert('Congrats. You guessed the correct number!'); // 4a
@@ -37,7 +38,7 @@ while (counter < 5) {
         alert("****** GAME OVER ******* You used up your 5 tries"); //6
     }
 
-/* #7 Arrays
+/* #7 Arrays ??
 function listOfNumbers() {
     var userGuessNumbers =  [ ];
 }
